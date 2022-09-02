@@ -18,6 +18,23 @@ body{
     /*tirar margem*/
 }
 
+
+.vejaMais:link{
+    color: #F5F3F5;
+    text-decoration: none;
+    font-size: 18px;
+}
+.vejaMais:visited{
+    color: #F5F3F5;
+    text-decoration: none;
+    font-size: 18px;
+}
+.vejaMais:hover{
+    text-decoration: underline #FCC55F 5px;
+    font-size: 18px;
+}
+
+
 /*Alteração de link*/
 a:link{
     color: #25262D;
@@ -31,12 +48,13 @@ a:hover{
     text-decoration: underline #FCC55F 5px;
 }
 
+
 .tabela{
     height: 200px;
     margin-left: 70px;
     margin-right: 70px;
     padding: 20px 20px 20px 20px;
     background-color: black;
+    font-size: 22px;
     /*mudar fonte*/
-    
 }
