@@ -23,6 +23,7 @@ body{
     color: #F5F3F5;
     text-decoration: none;
     font-size: 18px;
+    font-style: italic;
 }
 .vejaMais:visited{
     color: #F5F3F5;
@@ -55,33 +56,47 @@ a:hover{
     margin-right: 70px;
     padding: 20px 20px 20px 20px;
     background-color: black;
-    font-size: 22px;
+    font-size: 25px;
     /*mudar fonte*/
 }
+.imagem{
+    width: 290px;
+    height: 190px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.textoTab{
+    color: #f9f3f9;
+    font-size: 22px;
+}
+
+
 
 .tituloInd{
     font-size: 30px;
     text-align: center;
     font-weight:600;
 }
-
 .subtituloInd{
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     font-weight:500;
 }
-
 .textoInd{
     text-align:justify;
-    height: /*fit-content*/ 500px;
+    height: /*fit-content*/ 800px;
     margin-left: 10px;
     margin-right: 10px;
     padding: 20px 20px 20px 20px;
+    background-color: black;
+    font-size: 20px;
     /*Para organização*/
     border-style:inset;
     border-color: #F5F3F5;
 }
-
 .info{
     float: right;
     text-align: center;
@@ -90,9 +105,24 @@ a:hover{
     padding: 20px 20px 20px 20px;
     margin-right: 20px;
     margin-top: 0px;
+    font-size: 15px;
      /*Para organização*/
     border-style: inset;
     border-color: #F5F3F5;
 }
 
 
+.tituloReino{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: #F5F3F5;
+}
+.textoReino{
+    background-color: black;
+    color: #F5F3F5;
+    align-self: center;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 20px;
+    height: 500px;
+}
