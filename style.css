@@ -110,6 +110,21 @@ a:hover{
     border-style: inset;
     border-color: #F5F3F5;
 }
+.botao:link{
+    color: #F5F3F5;
+    text-decoration: none;
+    font-size:25px; 
+    margin-left: 20px;
+}
+.botao:visited{
+    color: #F5F3F5;
+    text-decoration: none;
+    font-size: 25px;
+}
+.botao:hover{
+    text-decoration: underline #FCC55F 5px;
+    font-size: 25px;
+}
 
 
 .tituloReino{
@@ -125,4 +140,6 @@ a:hover{
     padding: 20px 20px 20px 20px;
     margin: 10px 20px;
     height: 500px;
+    border-style:inset;
+    border-color: #F5F3F5;
 }
